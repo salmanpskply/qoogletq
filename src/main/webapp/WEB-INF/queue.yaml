@@ -1,0 +1,7 @@
+queue:
+- name: my-push-queues
+  mode: push
+  rate: 10/s
+  bucket_size: 50
+  max_concurrent_requests: 50
+
